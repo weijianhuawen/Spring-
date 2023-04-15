@@ -11,6 +11,7 @@
     <modules>
         <module>BeanIoc</module>
         <module>TestIoc</module>
+        <module>Bean</module>
     </modules>
 
     <properties>

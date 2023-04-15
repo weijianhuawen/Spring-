@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookDao" class="com.bean.demo.dao.impl.BookDaoImpl"/>
+    <bean id="bookService" class="com.bean.demo.service.impl.BookServiceImpl">
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
+
+    <bean id="productDao" class="com.bean.demo.factory.ProductDaoBeanFactory" factory-method="getProductDao"/>
+
+<!--&lt;!&ndash;    获取学生工厂对象&ndash;&gt;-->
+<!--    <bean id="studentDaoFactory" class="com.bean.demo.factory.StudentDaoBeanFactory"/>-->
+<!--&lt;!&ndash;    获取学生数据层对象&ndash;&gt;-->
+<!--    <bean id="studentDao" factory-bean="studentDaoFactory" factory-method="getStudentDao"/>-->
+    <bean id="studentDao" class="com.bean.demo.factory.StudentDaoFactoryBean"/>
+</beans>

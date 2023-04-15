@@ -20,7 +20,6 @@ public class TestServiceImpl implements TestService {
     @Override
     public void service() {
         System.out.println("Service层开始服务！");
-        this.testDao = testDao;
         testDao.save();
     }
 

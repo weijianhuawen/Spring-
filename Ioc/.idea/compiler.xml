@@ -8,10 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="TestIoc" />
         <module name="BeanIoc" />
+        <module name="Bean" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Ioc" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
