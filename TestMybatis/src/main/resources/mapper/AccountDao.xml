@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.work.mybatis.demo.dao.AccountDao">
+
+    <resultMap type="com.work.mybatis.demo.entity.Account" id="AccountMap">
+        <result property="uid" column="uid" jdbcType="INTEGER"/>
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+        <result property="sex" column="sex" jdbcType="VARCHAR"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="telephone" column="telephone" jdbcType="VARCHAR"/>
+        <result property="money" column="money" jdbcType="DOUBLE"/>
+    </resultMap>
+
+<!--    添加元素-->
+    <insert id="save">
+        insert into account values(null, #{id}, #{username}, #{age}, #{sex}, #{address}, #{telephone}, #{money})
+    </insert>
+    <!--查询单个-->
+    <select id="findByUid" resultMap="AccountMap">
+        select * from account where uid = #{uid};
+    </select>
+    <delete id="deleteByUid" >
+        delete from account where uid = #{uid}
+    </delete>
+
+    <update id="update">
+        update account set username = #{username} , money = #{money} where uid = #{uid}
+    </update>
+
+    <select id="findAll" resultMap="AccountMap">
+        select * from account
+    </select>
+
+</mapper>
