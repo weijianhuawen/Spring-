@@ -12,6 +12,9 @@
         <module>BeanIoc</module>
         <module>TestIoc</module>
         <module>Bean</module>
+        <module>BeanLife</module>
+        <module>untitled</module>
+        <module>DI</module>
     </modules>
 
     <properties>
