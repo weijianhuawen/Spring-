@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+               http://www.springframework.org/schema/beans/spring-beans.xsd
+               http://www.springframework.org/schema/context
+               http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    配置context命名空间下的配置文件路径-->
+<!--&lt;!&ndash;    方式1 导入单个配置文件&ndash;&gt;-->
+<!--    <context:property-placeholder location="jdbc.properties"/>-->
+<!--&lt;!&ndash;    方式2 导入多个配置文件&ndash;&gt;-->
+<!--    <context:property-placeholder location="jdbc.properties, jdbc2.properties"/>-->
+<!--&lt;!&ndash;    方式3 使用通配符*导入多个配置文件 但是只能加载本模块中的文件&ndash;&gt;-->
+<!--    <context:property-placeholder location="*.properties"/>-->
+<!--    方式4 编程规范 习惯在路径前面加上classpath-->
+<!--    <context:property-placeholder location="classpath:*.properties"/>-->
+<!--&lt;!&ndash;    方式5 编程规范 导入多个配置文件 并包含模块外的配置文件&ndash;&gt;-->
+<!--    <context:property-placeholder location="classpath*: *.properties"/>-->
+
+    <context:property-placeholder location="classpath:*.properties" system-properties-mode="NEVER"/>
     <bean id="druidDataSource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/accounts?useSSL=false&amp;serverTimezone=GMT%2B8&amp;characterEncoding=utf-8"/>
-        <property name="username" value="root"/>
-        <property name="password" value="123456"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
     </bean>
     <bean id="c3p0DataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/accounts?useSSL=false&amp;serverTimezone=GMT%2B8&amp;characterEncoding=utf-8"/>
-        <property name="user" value="root"/>
-        <property name="password" value="123456"/>
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
     </bean>
+
+    <bean id="userDao" class="com.data.source.demo.Dao.UserDao">
+        <property name="username" value="${username}"/>
+    </bean>
+<!--    <bean id="druidDataSource" class="com.alibaba.druid.pool.DruidDataSource">-->
+<!--        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>-->
+<!--        <property name="url" value="jdbc:mysql://localhost:3306/accounts?useSSL=false&amp;serverTimezone=GMT%2B8&amp;characterEncoding=utf-8"/>-->
+<!--        <property name="username" value="root"/>-->
+<!--        <property name="password" value="123456"/>-->
+<!--    </bean>-->
+<!--    <bean id="c3p0DataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+<!--        <property name="driverClass" value="com.mysql.jdbc.Driver"/>-->
+<!--        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/accounts?useSSL=false&amp;serverTimezone=GMT%2B8&amp;characterEncoding=utf-8"/>-->
+<!--        <property name="user" value="root"/>-->
+<!--        <property name="password" value="123456"/>-->
+<!--    </bean>-->
 </beans>
