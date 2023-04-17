@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="test1" class="com.collection.demo.service.impl.Test">
+        <property name="a" value="111"/>
+        <property name="b" value="222"/>
+        <property name="c" value="333"/>
+    </bean>
+    <bean id="test2" class="com.collection.demo.service.impl.Test">
+        <property name="a" value="444"/>
+        <property name="b" value="555"/>
+        <property name="c" value="666"/>
+    </bean>
+    <bean id="test3" class="com.collection.demo.service.impl.Test">
+        <property name="a" value="777"/>
+        <property name="b" value="888"/>
+        <property name="c" value="999"/>
+    </bean>
+
+    <bean id="collectionsService" class="com.collection.demo.service.impl.CollectionsServiceImpl">
+<!--        注入数组-->
+        <property name="arr">
+            <array>
+                <value>123</value>
+                <value>456</value>
+                <value>789</value>
+            </array>
+        </property>
+<!--        注入引用类型的数组-->
+        <property name="tests">
+            <array>
+                <ref bean="test1"/>
+                <ref bean="test2"/>
+                <ref bean="test3"/>
+            </array>
+        </property>
+<!--        注入List-->
+        <property name="list">
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+            </list>
+        </property>
+<!--        注入set-->
+        <property name="set">
+            <set>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+                <value>老六</value>
+                <value>王五</value>
+            </set>
+        </property>
+<!--        注入map-->
+        <property name="map">
+            <map>
+                <entry key="姓名" value="张三"/>
+                <entry key="班级" value="软件2011"/>
+                <entry key="学号" value="2020222222"/>
+            </map>
+        </property>
+<!--        注入property-->
+        <property name="properties">
+            <props>
+                <prop key="姓名">李四</prop>
+                <prop key="班级">网络2011</prop>
+                <prop key="学号">2020333333</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
