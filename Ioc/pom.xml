@@ -13,9 +13,9 @@
         <module>TestIoc</module>
         <module>Bean</module>
         <module>BeanLife</module>
-        <module>untitled</module>
         <module>DI</module>
         <module>CollectionsDI</module>
+        <module>DataSource</module>
     </modules>
 
     <properties>

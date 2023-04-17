@@ -10,8 +10,9 @@
         <module name="TestIoc" />
         <module name="DI" />
         <module name="CollectionsDI" />
-        <module name="Bean" />
         <module name="BeanLife" />
+        <module name="Bean" />
+        <module name="DataSource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
