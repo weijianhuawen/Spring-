@@ -9,6 +9,7 @@
         <module name="BeanIoc" />
         <module name="TestIoc" />
         <module name="DI" />
+        <module name="CollectionsDI" />
         <module name="Bean" />
         <module name="BeanLife" />
       </profile>

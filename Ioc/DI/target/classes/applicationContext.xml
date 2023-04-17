@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="diDao" class="com.di.demo.dao.impl.DiDaoImpl">-->
+<!--        <property name="dataNum" value="122"/>-->
+<!--        <property name="databaseName" value="di"/>-->
+<!--    </bean>-->
+    <bean id="diDao" class="com.di.demo.dao.impl.DiDaoImpl" autowire="byType"/>
+    <bean id="iocDao" class="com.di.demo.dao.impl.IocDaoImpl"/>
+
+    <bean id="diService" class="com.di.demo.service.impl.DiServiceImpl" autowire="constructor"/>
+</beans>

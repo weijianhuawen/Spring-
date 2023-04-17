@@ -15,6 +15,7 @@
         <module>BeanLife</module>
         <module>untitled</module>
         <module>DI</module>
+        <module>CollectionsDI</module>
     </modules>
 
     <properties>
