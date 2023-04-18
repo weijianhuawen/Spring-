@@ -16,6 +16,8 @@
         <module>DI</module>
         <module>CollectionsDI</module>
         <module>DataSource</module>
+        <module>CoreContainer</module>
+        <module>AnnotationIocAndDi</module>
     </modules>
 
     <properties>
