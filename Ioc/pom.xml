@@ -18,6 +18,7 @@
         <module>DataSource</module>
         <module>CoreContainer</module>
         <module>AnnotationIocAndDi</module>
+        <module>AnnotationBean</module>
     </modules>
 
     <properties>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AnnotationBean" />
         <module name="BeanIoc" />
         <module name="TestIoc" />
         <module name="CoreContainer" />
