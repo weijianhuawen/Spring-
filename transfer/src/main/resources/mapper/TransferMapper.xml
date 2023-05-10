@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.transfer.demo.dao.TransferDao">
+    <resultMap type="com.transfer.demo.mode.Account" id="AccountMap">
+        <result property="uid" column="uid" jdbcType="INTEGER"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="money" column="money" jdbcType="DOUBLE"/>
+    </resultMap>
+    <update id="inMoneyByUid">
+        update account
+        set money = money + #{money}
+        where uid = #{uid};
+    </update>
+    <update id="outMoneyByUid">
+        update account
+        set money = money - #{money}
+        where uid = #{uid};
+    </update>
+    <update id="inMoneyByName">
+        update account
+        set money = money + #{money}
+        where username = #{username};
+    </update>
+    <update id="outMoneyByName">
+        update account
+        set money = money - #{money}
+        where username = #{username};
+    </update>
+    <!--    根据uid查询-->
+    <select id="selectAll" resultMap="AccountMap">
+        select * from account
+    </select>
+    <select id="selectAccountByUid" resultType="account">
+        select * from account where uid = #{uid}
+    </select>
+</mapper>
