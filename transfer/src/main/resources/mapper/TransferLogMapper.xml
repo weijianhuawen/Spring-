@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.transfer.demo.dao.TransferLogDao">
+    <resultMap type="com.transfer.demo.mode.TransferLog" id="LogMap">
+        <result property="lid" column="lid" jdbcType="INTEGER"/>
+        <result property="content" column="content" jdbcType="VARCHAR"/>
+        <result property="state" column="state" jdbcType="VARCHAR"/>
+    </resultMap>
+    <insert id="insertLog">
+        insert into account_log values (null, #{content}, #{state})
+    </insert>
+    <select id="selectLogs" resultMap="LogMap">
+        select * from account_log;
+    </select>
+    <select id="selectLogByLid" resultMap="LogMap">
+        select * from account_log where lid = #{lid}
+    </select>
+
+</mapper>

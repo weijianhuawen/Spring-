@@ -21,12 +21,15 @@ public class MybatisConfig {
         //简化
         sqlSessionFactoryBean.setTypeAliasesPackage("com.transfer.demo.mode");
         //配置所需要扫描到的mapper文件
-        sqlSessionFactoryBean.setMapperLocations(new ClassPathResource("mapper/TransferMapper.xml"));
+        sqlSessionFactoryBean.setMapperLocations(new ClassPathResource[]{
+                new ClassPathResource("mapper/TransferMapper.xml"),
+                new ClassPathResource("mapper/TransferLogMapper.xml")
+        });
         return sqlSessionFactoryBean;
     }
 
     /**
-     * 配置所对应需要扫描的mapper接口
+     * 配置所对应需要扫描的mapper接口 基于注解编写sql需要设置这个 使用xml文件配置编写sql不需要
      * @return  MapperScannerConfigurer
      */
     @Bean

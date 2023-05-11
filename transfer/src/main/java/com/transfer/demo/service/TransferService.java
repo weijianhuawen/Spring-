@@ -1,6 +1,7 @@
 package com.transfer.demo.service;
 
 import com.transfer.demo.mode.Account;
+import com.transfer.demo.mode.TransferLog;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
