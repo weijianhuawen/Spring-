@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping( "resp")
 public class ResponseController {
     //响应一个页面，就不加@ResponseBody注解，默认返回页面
     @RequestMapping("page")
