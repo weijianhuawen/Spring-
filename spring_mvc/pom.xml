@@ -11,6 +11,7 @@
       <module>spring_mvc_04_response</module>
     <module>spring_mvc_05_restful</module>
     <module>spring_mvc_06_restful_case</module>
+      <module>spring_mvc_07_interceptor</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
   <name>spring_mvc Maven Webapp</name>

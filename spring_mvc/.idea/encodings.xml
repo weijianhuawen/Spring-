@@ -15,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/spring_mvc_05_restful/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_mvc_06_restful_case/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_mvc_06_restful_case/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_mvc_07_interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_mvc_07_interceptor/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
