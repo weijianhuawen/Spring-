@@ -1,0 +1,27 @@
+#多环境的配置开发
+spring:
+  profiles:
+    active: pro
+
+---
+#开发环境
+server:
+  port: 8085
+spring:
+  profiles: dev
+---
+#测试环境
+server:
+  port: 8086
+spring:
+  config:
+    activate:
+      on-profile: test
+---
+#生产环境
+server:
+  port: 8082
+spring:
+  config:
+    activate:
+      on-profile: pro
