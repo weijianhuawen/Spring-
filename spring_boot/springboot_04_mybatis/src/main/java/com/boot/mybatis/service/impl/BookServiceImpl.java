@@ -1,11 +1,12 @@
-package com.mvc.restful.service.impl;
+package com.boot.mybatis.service.impl;
 
-import com.mvc.restful.controller.Code;
-import com.mvc.restful.dao.BookDao;
-import com.mvc.restful.exception.BusinessException;
-import com.mvc.restful.exception.SystemException;
-import com.mvc.restful.mode.Book;
-import com.mvc.restful.service.BookService;
+
+import com.boot.mybatis.controller.Code;
+import com.boot.mybatis.dao.BookDao;
+import com.boot.mybatis.exception.BusinessException;
+import com.boot.mybatis.exception.SystemException;
+import com.boot.mybatis.mode.Book;
+import com.boot.mybatis.service.BookService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
