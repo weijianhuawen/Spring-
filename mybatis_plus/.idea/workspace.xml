@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa602cd-d87a-41ad-a8d6-c611ef279d99" name="Changes" comment="mvc 代码更新">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49e063d6-6337-41cc-ba00-ba877c4912d1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/49e063d6-6337-41cc-ba00-ba877c4912d1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1aa602cd-d87a-41ad-a8d6-c611ef279d99" name="Changes" comment="mybatis plus other代码更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstrart/src/main/java/com/mybatis/plus/mode/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstrart/src/main/java/com/mybatis/plus/mode/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstrart/target/classes/com/mybatis/plus/mode/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstrart/target/classes/com/mybatis/plus/mode/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_04_dql/src/test/java/com/mybatis/dql/MybatisPlus04DqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_04_dql/src/test/java/com/mybatis/dql/MybatisPlus04DqlApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_plus_04_dql/target/test-classes/com/mybatis/dql/MybatisPlus04DqlApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_04_dql/target/test-classes/com/mybatis/dql/MybatisPlus04DqlApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +80,7 @@
     "project.structure.proportion": "0.15234375",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
-    "spring.configuration.checksum": "99ea2e2535edf9edb39844fac2d43a8e",
+    "spring.configuration.checksum": "6eafb4e7f7121e65ee2d07745e5c989b",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -269,6 +259,7 @@
       <updated>1683559929912</updated>
       <workItem from="1684478193551" duration="12919000" />
       <workItem from="1684556965815" duration="17524000" />
+      <workItem from="1684598057954" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis plus 代码更新">
       <created>1684510670248</created>
@@ -312,7 +303,35 @@
       <option name="project" value="LOCAL" />
       <updated>1684510807739</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mybatis plus 代码更新">
+      <created>1684598149171</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684598149171</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mybatis plus 映射匹配调整代码更新">
+      <created>1684598350633</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684598350633</updated>
+    </task>
+    <task id="LOCAL-00009" summary="mybatis plus id生成策略，乐观锁实现步骤代码更新">
+      <created>1684598384471</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684598384471</updated>
+    </task>
+    <task id="LOCAL-00010" summary="mybatis plus other代码更新">
+      <created>1684598407115</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684598407115</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,12 +349,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mybatis plus 代码更新" />
     <MESSAGE value="mybatis plus 快速入门代码更新" />
     <MESSAGE value="mybatis plus 标准crud开发代码更新" />
     <MESSAGE value="mybatis plus 分页查询代码更新" />
     <MESSAGE value="mybatis plus 条件查询代码更新" />
     <MESSAGE value="mvc 代码更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvc 代码更新" />
+    <MESSAGE value="mybatis plus 代码更新" />
+    <MESSAGE value="mybatis plus 映射匹配调整代码更新" />
+    <MESSAGE value="mybatis plus id生成策略，乐观锁实现步骤代码更新" />
+    <MESSAGE value="mybatis plus other代码更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis plus other代码更新" />
   </component>
 </project>
