@@ -4,72 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa602cd-d87a-41ad-a8d6-c611ef279d99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/Springboot04MybatisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/controller/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/controller/ProjectExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/controller/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/exception/SystemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/mode/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/js/axios-0.18.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/pages/books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/elementui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/elementui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/resources/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/test/java/com/boot/mybatis/Springboot04MybatisApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/Springboot04MybatisApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/controller/BookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/controller/Code.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/controller/ProjectExceptionAdvice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/controller/ResponseResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/dao/BookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/exception/BusinessException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/exception/SystemException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/mode/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/com/boot/mybatis/service/impl/BookServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/js/axios-0.18.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/pages/books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/elementui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/elementui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/target/classes/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_mvc/spring_mvc_06_restful_case/src/main/java/com/mvc/restful/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_boot/springboot_04_mybatis/src/main/java/com/boot/mybatis/service/impl/BookServiceImpl.java" afterDir="false" />
+    <list default="true" id="1aa602cd-d87a-41ad-a8d6-c611ef279d99" name="Changes" comment="mvc 代码更新">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/49e063d6-6337-41cc-ba00-ba877c4912d1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/49e063d6-6337-41cc-ba00-ba877c4912d1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstrart/src/main/java/com/mybatis/plus/mode/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstrart/src/main/java/com/mybatis/plus/mode/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_01_quickstrart/target/classes/com/mybatis/plus/mode/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_01_quickstrart/target/classes/com/mybatis/plus/mode/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_04_dql/src/test/java/com/mybatis/dql/MybatisPlus04DqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_04_dql/src/test/java/com/mybatis/dql/MybatisPlus04DqlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_plus_04_dql/target/test-classes/com/mybatis/dql/MybatisPlus04DqlApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_plus_04_dql/target/test-classes/com/mybatis/dql/MybatisPlus04DqlApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/mybatis_plus_02_crud">
@@ -120,19 +76,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/文档/Java代码github/SpringLearning/mybatis_plus/mybatis_plus_04_dql/src/main/java/com/mybatis/dql",
+    "last_opened_file_path": "D:/文档/Java代码github/SpringLearning/mybatis_plus",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15234375",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "99ea2e2535edf9edb39844fac2d43a8e",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -143,88 +101,86 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_04_dql\src\main\java\com\mybatis\dql" />
-      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_03_pages\src\main\resources" />
-      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_03_pages\src\main\java\com\mybatis\pages" />
-      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_02_crud\src\main\resources" />
+      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_07_generator\src\main\resources" />
+      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_06_dml\src\main\resources" />
+      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_06_dml\src\main\java\com\mybatis\dml" />
+      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_05_mapper\src\main\resources" />
+      <recent name="D:\文档\Java代码github\SpringLearning\mybatis_plus\mybatis_plus_05_mapper\src\main\java\com\mybatis\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisPlus04DqlApplicationTests.selectTest">
-    <configuration name="MybatisPlus02CrudApplicationTests.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_plus_02_crud" />
+  <component name="RunManager" selected="Application.CodeGenerator">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.generator.code.CodeGenerator" />
+      <module name="mybatis_plus_07_generator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatis.crud.*" />
+          <option name="PATTERN" value="com.mybatis.generator.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.crud.MybatisPlus02CrudApplicationTests" />
-      <option name="METHOD_NAME" value="delete" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus06DmlApplicationTests.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus_06_dml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.dml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.dml" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.dml.MybatisPlus06DmlApplicationTests" />
+      <option name="METHOD_NAME" value="getTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus02CrudApplicationTests.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_plus_02_crud" />
+    <configuration name="MybatisPlus06DmlApplicationTests.logicDelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus_06_dml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatis.crud.*" />
+          <option name="PATTERN" value="com.mybatis.dml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.crud.MybatisPlus02CrudApplicationTests" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="PACKAGE_NAME" value="com.mybatis.dml" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.dml.MybatisPlus06DmlApplicationTests" />
+      <option name="METHOD_NAME" value="logicDelTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus02CrudApplicationTests.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_plus_02_crud" />
+    <configuration name="MybatisPlus06DmlApplicationTests.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus_06_dml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatis.crud.*" />
+          <option name="PATTERN" value="com.mybatis.dml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.crud.MybatisPlus02CrudApplicationTests" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="com.mybatis.dml" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.dml.MybatisPlus06DmlApplicationTests" />
+      <option name="METHOD_NAME" value="updateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus03PagesApplicationTests.pagesQueryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_plus_03_pages" />
+    <configuration name="MybatisPlus06DmlApplicationTests.updateTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus_06_dml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mybatis.pages.*" />
+          <option name="PATTERN" value="com.mybatis.dml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis.pages" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.pages.MybatisPlus03PagesApplicationTests" />
-      <option name="METHOD_NAME" value="pagesQueryTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisPlus04DqlApplicationTests.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_plus_04_dql" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatis.dql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis.dql" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.dql.MybatisPlus04DqlApplicationTests" />
-      <option name="METHOD_NAME" value="selectTest" />
+      <option name="PACKAGE_NAME" value="com.mybatis.dml" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.dml.MybatisPlus06DmlApplicationTests" />
+      <option name="METHOD_NAME" value="updateTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -272,13 +228,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisPlus05MapperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis_plus_05_mapper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mybatis.mapper.MybatisPlus05MapperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus06DmlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis_plus_06_dml" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mybatis.dml.MybatisPlus06DmlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus07GeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mybatis_plus_07_generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mybatis.generator.MybatisPlus07GeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisPlus04DqlApplicationTests.selectTest" />
-        <item itemvalue="JUnit.MybatisPlus03PagesApplicationTests.pagesQueryTest" />
-        <item itemvalue="JUnit.MybatisPlus02CrudApplicationTests.update" />
-        <item itemvalue="JUnit.MybatisPlus02CrudApplicationTests.insert" />
-        <item itemvalue="JUnit.MybatisPlus02CrudApplicationTests.delete" />
+        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="JUnit.MybatisPlus06DmlApplicationTests.updateTest2" />
+        <item itemvalue="JUnit.MybatisPlus06DmlApplicationTests.updateTest" />
+        <item itemvalue="JUnit.MybatisPlus06DmlApplicationTests.logicDelTest" />
+        <item itemvalue="JUnit.MybatisPlus06DmlApplicationTests.getTest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,11 +267,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683559929912</updated>
-      <workItem from="1684478193551" duration="12026000" />
+      <workItem from="1684478193551" duration="12919000" />
+      <workItem from="1684556965815" duration="17524000" />
     </task>
+    <task id="LOCAL-00001" summary="mybatis plus 代码更新">
+      <created>1684510670248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684510670248</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mybatis plus 快速入门代码更新">
+      <created>1684510699877</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684510699877</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mybatis plus 标准crud开发代码更新">
+      <created>1684510725791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684510725791</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mybatis plus 分页查询代码更新">
+      <created>1684510749834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684510749834</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mybatis plus 条件查询代码更新">
+      <created>1684510778107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684510778107</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mvc 代码更新">
+      <created>1684510807739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684510807739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mybatis plus 代码更新" />
+    <MESSAGE value="mybatis plus 快速入门代码更新" />
+    <MESSAGE value="mybatis plus 标准crud开发代码更新" />
+    <MESSAGE value="mybatis plus 分页查询代码更新" />
+    <MESSAGE value="mybatis plus 条件查询代码更新" />
+    <MESSAGE value="mvc 代码更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc 代码更新" />
   </component>
 </project>

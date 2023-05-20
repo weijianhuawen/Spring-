@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mybatis_plus_01_quickstart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_plus_01_quickstrart/mybatis_plus_07_generator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis_plus_01_quickstrart/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis_plus_01_quickstrart/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis_plus_02_crud/src/main/java" charset="UTF-8" />
@@ -9,5 +10,8 @@
     <file url="file://$PROJECT_DIR$/mybatis_plus_03_pages/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis_plus_04_dql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis_plus_04_dql/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_plus_05_mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_plus_06_dml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_plus_07_generator/src/main/java" charset="UTF-8" />
   </component>
 </project>
